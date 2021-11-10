@@ -19,4 +19,6 @@ steps for the program :
     the existing site.css file found in the main css folder and change file name bootstrap.min.css to bootstrap.css.
 8. Unfortunately, I got the error. the theme is not working on it properly. 
 9. Move forward to the next step, go to the _Layout.cshtml page the additional stylesheets and scripts from the CSS_JS.txt file 
-10. Go to the _Layout.cshtml change the dropdown menu setting 
+10. Change the nav-class from navbar-light to navbar dark and bg-white to bg-primary. Also, remove the text-dark from the nav bar. 
+11. add additonal Css and Js files which provide in the folder
+12. Go to the _Layout.cshtml change the dropdown menu setting, add the code from the bootstrap files. Then, change the name of the dropdown to Content Management. 
