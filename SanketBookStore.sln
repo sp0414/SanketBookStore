@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanketBookStore", "SanketBo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanketBooks.DataAccess", "SanketBooks.DataAccess\SanketBooks.DataAccess.csproj", "{D6D33CA6-AD2F-413D-A604-B39ADA481625}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanketBooks.Models", "SanketBooks.Models\SanketBooks.Models.csproj", "{7F3B315D-0F5A-402E-846A-BCBC27CB6B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanketBooks.Utility", "SanketBooks.Utility\SanketBooks.Utility.csproj", "{041302CB-6AFA-4FB2-BF79-06A6456E7AE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D6D33CA6-AD2F-413D-A604-B39ADA481625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6D33CA6-AD2F-413D-A604-B39ADA481625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6D33CA6-AD2F-413D-A604-B39ADA481625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3B315D-0F5A-402E-846A-BCBC27CB6B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3B315D-0F5A-402E-846A-BCBC27CB6B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3B315D-0F5A-402E-846A-BCBC27CB6B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3B315D-0F5A-402E-846A-BCBC27CB6B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041302CB-6AFA-4FB2-BF79-06A6456E7AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041302CB-6AFA-4FB2-BF79-06A6456E7AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041302CB-6AFA-4FB2-BF79-06A6456E7AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041302CB-6AFA-4FB2-BF79-06A6456E7AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
