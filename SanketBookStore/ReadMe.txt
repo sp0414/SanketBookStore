@@ -23,3 +23,9 @@ steps for the program :
 11. add additonal Css and Js files which provide in the folder
 12. Go to the _Layout.cshtml change the dropdown menu setting, add the code from the bootstrap files. Then, change the name of the dropdown to Content Management. 
 13. Got the error and stuck ...... 
+14 I got the error : Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0246	The type or namespace name 'ErrorViewModel' could not be found (are you missing a using directive or an assembly reference?)	SanketBookStore	C:\Users\W0776059\source\repos\SanketBookStore\SanketBookStore\SanketBookStore\Controllers\HomeController.cs  , Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0433	The type 'IdentityUser' exists in both 'Identity.Stores, Version=1.2.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' and 'Microsoft.Extensions.Identity.Stores, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'	SanketBookStore	C:\Users\W0776059\source\repos\SanketBookStore\SanketBookStore\SanketBookStore\Startup.cs	36	Active
+Severity	Code	Description	Project	File	Line	Suppression State
+Warning		Unexpected comma after the last object member.	SanketBookStore	C:\Users\W0776059\source\repos\SanketBookStore\SanketBookStore\SanketBookStore\Properties\launchSettings.json	6	
+
