@@ -32,4 +32,21 @@ Got the error and could not run the app. the error is :
 Severity	Code	Description	Project	File	Line	Suppression State
 Error	CS0433	The type 'IdentityUser' exists in both 'Identity.Stores, Version=1.2.7.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' and 'Microsoft.Extensions.Identity.Stores, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'	SanketBookStore	C:\Users\W0776059\source\repos\SanketBookStore\SanketBookStore\SanketBookStore\Startup.cs	36	Active
 How i resolved: removed Identity.Store, made sure the Microsoft.Extensions.Identity.Stores was present in the project(s).
-Conclusion - duplication resolved...
+Conclusion - duplication resolved... 
+
+
+Got the Error :: 
+Message=An error occurred while creating the route with name 'default' and pattern '{area:Customer}{controller=Home}/{action=Index}/{id?}'. 
+
+
+Try to solve it but couldn't solved 
+
+Add the / in  pattern: "{area:Customer}/{controller=Home}/{action=Index}/{id?}"); and some change happen, the app is run but still got the error ..
+
+New Error : 
+An unhandled exception occurred while processing the request.
+InvalidOperationException: The constraint reference 'Customer' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, string inlineText) 
+
+
+
