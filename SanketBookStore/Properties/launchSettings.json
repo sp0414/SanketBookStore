@@ -4,7 +4,7 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:32870",
-      //"sslPort": 44348
+      //"sslPort": 44348    // remove comment when running at home (only for use in lab)
     }
   },
   "profiles": {
