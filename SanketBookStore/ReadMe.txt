@@ -19,14 +19,25 @@ steps for the program :
 9:45 heck the public IActionResult interface
 9:50 ckeck bugging 
 9:55 to Bootswatch.com and select the theme, I have selected Cyborg theme and download it and paste it to the local server. Also, Go to wwwroot and replace
-    the existing site.css file found in the main css folder and change file name bootstrap.min.css to bootstrap.css.
-8. Unfortunately, I got the error. the theme is not working on it properly. 
-9. Move forward to the next step, go to the _Layout.cshtml page the additional stylesheets and scripts from the CSS_JS.txt file 
-10. Change the nav-class from navbar-light to navbar dark and bg-white to bg-primary. Also, remove the text-dark from the nav bar. 
-11. add additonal Css and Js files which provide in the folder
-12. Go to the _Layout.cshtml change the dropdown menu setting, add the code from the bootstrap files. Then, change the name of the dropdown to Content Management. 
-13. Got the error and stuck ...... 
-14 I got the error : Severity	Code	Description	Project	File	Line	Suppression State
+    
+08/11/2021
+
+9:38        the existing site.css file found in the main css folder and change file name bootstrap.min.css to bootstrap.css.
+9:38     Unfortunately, I got the error. the theme is not working on it properly. 
+9:40   Move forward to the next step, go to the _Layout.cshtml page the additional stylesheets and scripts from the CSS_JS.txt file 
+9:42  Change the nav-class from navbar-light to navbar dark and bg-white to bg-primary. Also, remove the text-dark from the nav bar. 
+9:43 add additonal Css and Js files which provide in the folder
+ 
+10/11/2021 
+
+
+ Go to the _Layout.cshtml change the dropdown menu setting, add the code from the bootstrap files. Then, change the name of the dropdown to Content Management. 
+13.  Got the error and stuck ...... 
+
+17/11/2021 
+
+
+ I got the error : Severity	Code	Description	Project	File	Line	Suppression State
 Error	CS0246	The type or namespace name 'ErrorViewModel' could not be found (are you missing a using directive or an assembly reference?)	SanketBookStore	C:\Users\W0776059\source\repos\SanketBookStore\SanketBookStore\SanketBookStore\Controllers\HomeController.cs  , Severity	Code	Description	Project	File	Line	Suppression State
 
 22/11/2021
