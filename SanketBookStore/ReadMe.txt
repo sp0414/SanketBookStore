@@ -68,4 +68,10 @@ InvalidOperationException: The constraint reference 'Customer' could not be reso
 Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, string inlineText) 
 
 
+24/11/2021 
+
+9:30  Try to solve the error again & again but couldn't find the solution..Same error as the previous happen 
+     Error :: An unhandled exception occurred while processing the request.
+              InvalidOperationException: The constraint reference 'Customer' could not be resolved to a type. Register the constraint type
+              with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
 
