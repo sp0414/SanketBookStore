@@ -75,3 +75,14 @@ Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternPa
               InvalidOperationException: The constraint reference 'Customer' could not be resolved to a type. Register the constraint type
               with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
 
+
+29/11/2021 
+
+11:37 Still facing the error and try to solve it. 
+      Error :   An unhandled exception occurred while processing the request.
+                InvalidOperationException: The constraint reference 'Customer' could not be resolved to a type. Register the constraint type 
+                with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+                Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, string inlineText)
+                
+11:41  think to start the project again but try to solve the error last time.                
+
